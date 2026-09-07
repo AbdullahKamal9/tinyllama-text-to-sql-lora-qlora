@@ -1,0 +1,14 @@
+# Training checkpoints — large, regenerable, don't belong in git
+tinyllama-sql-runs/*/checkpoint-*/
+tinyllama-sql-runs/*/merged_full_model/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Colab / Drive artifacts
+.config/
+sample_data/
